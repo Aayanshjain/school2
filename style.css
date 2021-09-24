@@ -1,8 +1,7 @@
 
 html {
- scroll-behavior: smooth;
-}
-
+  scroll-behavior: smooth;
+ }
 #map iframe
 {
     width: 50%;
@@ -20,10 +19,10 @@ html {
 }
 
 #footer{
-  height: 20px;
-  background-color:white;
-  }
-
+height: 20px;
+background-color:white;
+}
+ 
 input
 {
     background: grey
@@ -78,6 +77,10 @@ height: 30px;
 .travel_mainDiv h5 , .travel_mainDiv p
 {
 margin-left: 20px;
+}
+
+#aluminiList img{
+height:250px;
 }
 
 #achievementsID{
@@ -141,4 +144,20 @@ color: #ff7700;
   margin-bottom: 10px;
 }
 
+.modal-content
+{
+  margin-top: 100px;
+}
 
+.img_modal
+  {
+    display: inline-block;
+  }
+.p_modal
+  {
+      margin-top: 10px;
+}
+.modal-body
+{
+    text-align: center
+}
